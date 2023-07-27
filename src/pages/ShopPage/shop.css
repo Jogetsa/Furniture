@@ -1,0 +1,14 @@
+.s-shop {
+    height: 90vh;
+}
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.catalog a{
+    padding: 10px 20px;
+    background-color: #111;
+    color: #fff;
+}

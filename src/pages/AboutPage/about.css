@@ -1,0 +1,166 @@
+/* SECTION 1 START */
+.s1-a {
+    background-color: #F2F5FF;
+}
+
+.a1 {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+}
+
+.des {
+    width: 40%;
+    margin-left: 0;
+    color: black;
+}
+
+.des h1 {
+    font-size: 40px;
+}
+
+.des p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.des-img {
+    width: 40%;
+    margin: 100px 0;
+}
+/* SECTION 1 END */
+
+/* SECTION 2 START */
+.s2-a .m-m {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.s2-a .m-img {
+    width: 50%;
+    margin: 50px 0;
+}
+
+.s2-a .m-des {
+    width: 50%;
+}
+
+.s2-a .m-des h1 {
+    font-size: 40px;
+}
+
+.s2-a .m-des p {
+    font-size: 20px;
+}
+
+.s2-a .m-bottom {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.s2-a .advantage {
+    width: 40vh;
+    text-align: left;
+    padding-bottom: 50px;
+}
+/* SECTION 2 END */
+
+/* SECTION 3 START */
+.s3-a {
+    background: #F2F5FF;
+    height: auto;    
+}
+
+.s3-a .website {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+}
+.s3-a .logo {
+    width: 10%;
+}
+.s3-a .des-logo {
+    width: 40%;
+}
+.s3-a .des-logo h1 {
+    font-size: 40px;
+}
+.s3-a .des-logo p {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* SECTION 3 END */
+
+/* SECTION 4 START */
+.s4-a .logo {
+    text-align: center;
+    padding-top: 30px;
+}
+.s4-a .logo h1 {
+    font-size: 40px;
+}
+.s4-a .table h2 {
+    font-size: 40px;
+}
+.s4-a .table ul {
+    padding: 0;
+    font-size: 23px;
+    line-height: 180%;
+}
+.s4-a .table {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.s4-a .product {
+    width: 30%;
+}
+.s4-a .batman {
+    width: 30%;
+}
+
+.s4-a .table-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.s4-a .price-img {
+    width: 10%;
+}
+.s4-a .price-des {
+    width: 40%;
+}
+.s4-a .table-2 h2 {
+    font-size: 40px;
+}
+.s4-a .table-2 ul {
+    padding: 0;
+    font-size: 20px;
+}
+/* SECTION 4 END */
+
+/* SECTION 5 START */ 
+.s5-a {
+    padding-top: 50px;
+    background-color: #F2F5FF;
+    text-align: center;
+    font-size: 30px;
+}
+
+.s5-a .suppliers img {
+    width: 280px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.s5-a .supps {
+    display: flex;
+    justify-content: space-between;
+}
+/* SECTION 5 END */

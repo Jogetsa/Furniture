@@ -1,9 +1,46 @@
 .Home {
     background-image: url(../../../public/images/bg-url.png);
-    height: 120vh;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    text-align: center;
 }
 
-h1 {
+.Home h1 {
+    font-size: 3rem;
+    color: #111;
+    font-weight: 800;
+}
+.Home p {
+    font-size: 1.2rem;
+    color: #111;
+    padding-bottom: 30px;
+}
+.Home .prologue {
+    padding-top: 30px;
+}
+.Home span {
+    color: rgb(219, 204, 32);
+}
+.Home a {
+    padding: 10px 15px;
+    background-color: #054C73;
+    border-radius: 0.3rem;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Home a:hover {
+    transition: 0.3s;
+    background-color: #055b8a;
+}
+
+.HomePage h1 {
     color: var(--font-color, #333);
     font-family: Montserrat;
     font-size: 32px;
@@ -12,7 +49,7 @@ h1 {
     line-height: normal;
 }
 
-p {
+.HomePage p {
     color: var(--font-color-1, #666);
     text-align: center;
     font-family: Montserrat;
@@ -22,29 +59,29 @@ p {
     line-height: 40px;
 }
 
-.logo {
+.HomePage a {
+    text-decoration: none;
+}
+
+.HomePage .logo {
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-.container {
-    width: 1220px;
-}
-
 /* SECTION 2  start */
-.s2 {
+.s2-h {
     background: #F2F5FF;
 }
 
-.s2 .icons h5 {
+.s2-h .icons h5 {
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.s2 .icons {
+.s2-h .icons {
     display: flex;
     align-items: center;
     height: 150px;
@@ -54,25 +91,32 @@ p {
 /* SECTION 2  end */
 
 /* SECTION 3  start */
-.s3 {
-    height: 700px;
+.s3-h {
+    height: 750px;
     background: #FCFCFC;
 }
 
-.s3 .media {
+.s3-h .media {
     display: flex;
     justify-content: space-between;
 }
 
-.s3 .media .left-media {
+.s3-h .media .left-media {
+    margin-top: 50px;
     border-radius: 20% 0 0 0;
 }
 
-.s3 .media .right-media {
-    border-radius: 0 0 20% 0;
+.s3-h .media .center-media {
+    border-radius: 2%;
+    margin-bottom: 50px;
 }
 
-.s3 .logo h1 {
+.s3-h .media .right-media {
+    margin-top: 50px;
+    border-radius: 0 0 15% 0;
+}
+
+.s3-h .logo h1 {
     padding-bottom: 20px;
     color: var(--font-color, #333);
     font-family: Montserrat;
@@ -82,7 +126,7 @@ p {
     line-height: normal;
 }
 
-.s3 .logo p {
+.s3-h .logo p {
     color: var(--font-color-1, #666);
     text-align: center;
     font-family: Montserrat;
@@ -95,73 +139,80 @@ p {
 /* SECTION 3  end */
 
 /* SECTION 4  start */
-.s4 {
+.s4-h {
     background: #F2F5FF;
     width: 100%;
     padding-top: 70px;
-    height: 874px;
+    height: 750px;
 }
 
-.s4 .container {
+.s4-h .container {
     display: flex;
     align-items: center;
 }
 
-.s4 .container .left {
+.s4-h .container .left {
     width: 70%;
     padding-right: 60px;
 }
 
-.s4 .left h1 {
+.s4-h .left h1 {
     padding-bottom: 30px;
 }
 
-.s4 .left p {
-    padding-bottom: 20px;
+.s4-h .left p {
+    padding-bottom: 50px;
     text-align: left;
 }
 
-.s4 button {
+.s4-h a {
     border-radius: 50px;
-    background: var(--primary-color, #054C73);
+    background-color: #054C73;
     padding: 24px 57px;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.s4 .container .right {
+.s4-h a:hover {
+    background-color: #056599;
+    transition: 0.3s;
+}
+
+.s4-h .container .right {
     width: 60%;
 }
 
-.s4 img {
+.s4-h img {
     border-radius: 2%;
 }
 
 /* SECTION 4  end */
 
 /* SECTION 5  start */
-.s5 {
+.s5-h {
     padding-bottom: 50px;
     border-bottom: 2px solid #D7D6D6;
     background: #FCFCFC;
 }
 
-.s5 .range {
+.s5-h .range {
     display: flex;
 }
 
-.s5 .range img {
+.s5-h .range img {
     border-radius: 4%;
 }
 
-.s5 .titles {
+.s5-h .titles {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
 
-.s5 h2 {
+.s5-h h2 {
     color: var(--font-color, #333);
     font-size: 24px;
     font-style: normal;
@@ -172,23 +223,23 @@ p {
 /* SECTION 5 END  */
 
 /* SECTION 6 START */
-.s6 {
+.s6-h {
     background: #FCFCFC;
     padding-bottom: 100px;
 }
 
-.s6 .tutorial {
+.s6-h .tutorial {
     display: flex;
     justify-content: space-between;
 }
 
-.s6 .description {
+.s6-h .description {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.s6 .description h1 {
+.s6-h .description h1 {
     padding-top: 10px;
     font-size: 24px;
     font-style: normal;
@@ -196,18 +247,18 @@ p {
     line-height: normal;
 }
 
-.s6 .description p {
+.s6-h .description p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
 }
 
-.s6 .titles {
+.s6-h .titles {
     padding-top: 15px;
 }
 
-.s6 .num {
+.s6-h .num {
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -222,22 +273,27 @@ p {
 
 /* SECTION 7 END */
 
-.s7 {
+.s7-h {
     background: #F2F5FF;
     padding-bottom: 50px;
 }
 
-.s7 .login button {
-    width: 153px;
-    height: 70px;
+.s7-h .login a {
+    padding: 20px 30px;
     border-radius: 3px;
     border: 1px solid #011C42;
-    background: var(--primary-color, #054C73);
+    background: #054C73 ;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
-.s7 .login {
+.s7-h .login a:hover {
+    transition: 0.3s;
+    background-color: #055b8a;
+}
+
+.s7-h .login {
     text-align: center;
 }

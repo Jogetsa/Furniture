@@ -1,4 +1,45 @@
 footer {
     background: #03344F;
     color: #FFF;
+    padding: 50px 50px;
+}
+footer .container {
+    width: 1520px;
+}
+.follow img {
+    width: 50px;
+    margin-right: 20px;
+}
+footer h2 {
+    padding-bottom: 15px;
+}
+
+.contact {
+    padding: 25px 0 50px 0;
+}
+
+.contact a{
+    color: #ffffffb1;
+}
+
+.phone {
+    padding-bottom: 10px;
+}
+
+.rights {
+    width: 25%;
+    border-top: 1px solid #ffffff28;
+}
+
+.f-end {
+    display: flex;
+    width: 100%;
+}
+.f-img {
+    width: 50%;
+    display: flex;
+}
+
+.contacts {
+    width: 20%;  
 }
