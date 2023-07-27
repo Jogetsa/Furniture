@@ -35,3 +35,7 @@ header a:hover {
     transition:  0.4s;
     color: #056599;
 }
+
+header img {
+    width: 10vh;
+}

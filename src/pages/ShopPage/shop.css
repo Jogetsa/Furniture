@@ -1,14 +1,42 @@
 .s-shop {
     height: 90vh;
+    background: url();
 }
 .catalog {
+    padding-top: 25vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    padding-bottom: 8vh;
+}
+.catalog-2 {
+    display: flex;
+    margin: 0 300px;
 }
 .catalog a{
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #111;
     color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.catalog-2 a{
+    padding: 15px 20px;
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.catalog a:hover {
+    background-color: #fff;
+    border: 1px solid #111;
+    transition: 0.5s;
+    color: #111;
+}
+.catalog-2 a:hover {
+    background-color: #fff;
+    border: solid black 1px;
+    transition: 0.5s;
+    color: #111;
 }

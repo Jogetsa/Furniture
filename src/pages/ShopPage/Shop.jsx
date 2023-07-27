@@ -5,7 +5,7 @@ import Card from '../../components/Card/Card';
 
 const Shop = () => {
 
-    const [shop, setShop] = useState([])
+    const [shop, setShop] = useState([]);
 
     useEffect(() => {
         shopServices.getData()
@@ -15,12 +15,20 @@ const Shop = () => {
     return (
         <>
             <section className='s-shop'>
-                <div className="catalog">
-                    <a>Sofas</a>
-                    <a>Chairs</a>
-                    <a>Beds</a>
-                    <a>Tables</a>
-                    <a>Dining furniture</a>
+                <div className="container">
+                    <div className="catalog">
+                        <a>Sofas & sectionals</a>
+                        <a>TV & media</a>
+                        <a>Dressers & storage drawers</a>
+                        <a>Tables & desks</a>
+                        <a>Dining furniture</a>
+                    </div>
+                    <div className="catalog-2">
+                        <a>Beds</a>
+                        <a>Chairs</a>
+                        <a>Storage</a>
+                        <a>Kids</a>
+                    </div>
                 </div>
             </section>
         </>
